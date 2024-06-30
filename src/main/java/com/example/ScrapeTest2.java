@@ -14,6 +14,6 @@ public interface ScrapeTest2 extends Config
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "Let's test this out";
 	}
 }
