@@ -1,4 +1,4 @@
-package com.example;
+package com.ScrapeTest;
 
 import com.google.inject.Provides;
 import javax.inject.Inject;
@@ -41,7 +41,7 @@ public class ScrapeTest1 extends Plugin
 	{
 		if (gameStateChanged.getGameState() == GameState.LOGGED_IN)
 		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example says " + config.greeting(), null);
+			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example now says " + config.greeting(), null);
 		}
 	}
 
